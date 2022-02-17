@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 500px;
+}
+
+.logo{
+    font-size: 30px;
+    padding-right: 8px;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    padding-right: 8px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.svgs{
+    width: 20px;
+    padding-right: 8px;
+}
+
+.top-panel{
+    margin: 10px 25px 10px 25px;
+    text-align: center;
+    display: flex;
+    width: 80%;
+}
+
+.panel-items{
+    width: 10%;
+    align-content: center;
+}
+
+.panel-items p{
+    font-size: small;
+    text-align: center;
+}
+
+.panel-tags{
+    text-align: center; 
+    font-weight: lighter; 
+    color: red;
+}
+
+.panel-items img{
+    width: 25px;
+}
+
+.banner-button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.banner{
+    text-align: center;
+    background-image: url("./images/banner-image.jpg");
+    height: 450px;
+    color: white;
+}
+
+.banner-text1{
+    padding-top: 350px;
+    color: floralwhite;
+}
+
+.img-banner{
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-link1{
+    padding-top: 35px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.banner2{
+    background-image: url('./images/watch.jpg');
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-text2{
+    color: red;
+    margin-left: 600px;
+    margin-top: 5px;
+}
+
+.banner-image{
+    margin-left: 550px;
+}
+
+.banner-text3{
+    margin-left: 550px;
+    font-size: 20pt;
+}
+
+.banner-text4{
+    margin-left: 560px;
+    
+}
+
+.banner-text5{
+    margin-left: 580px;
+    font-size: 20pt;
+}
+
+.banner3{
+    margin: 5px 0 8px 0;
+    background-image: url("./images/iphone-13-pro.jpg");
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-link2{
+    padding-top: 35px;
+    padding-right: 7px;
+    text-decoration: none;
+}
+
+.links2{
+    margin-left: 580px;
+}
+
+.row-last{
+    display: flex;
+    width: 100%;
+    margin: 5px 0 5px 0;
+}
+
+.row-last-col1{
+    width: 50%;
+    height: 514px;
+    background-image: url(./images/iphone-13.jpg);
+    background-position-x: center;
+}
+
+.banner-text6{
+    color: floralwhite;
+    margin: 220px 0 0 225px;
+}
+
+.banner-subtext6{
+    color: floralwhite;
+    margin: 5px 0 0 220px;
+}
+
+.row-last-col1-links{
+    margin: 5px 0 0 210px;
+    font-weight: 700;
+}
+
+.banner-link3{
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+.banner-image2{
+    margin: 0 0 0 220px;
+}
+
+.box-text{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.box-text a{
+    text-decoration: none;
+}
+
+.box-image{
+    width: 580px;
+    height: 430px;
+    padding-left: 8px;
+    
+}
+
+.row-last-col2{
+    background-image: url("./images/fitness.jpg");
+    width: 50%;
+    height: 514px;
+    background-position: center;
+    margin-left: 8px;
+}
+
+.row-last2-col1{
+    background-image: url("./images/ipad-mini.jpg");
+    width: 50%;
+    height: 514px;
+    background-position: center;
+    margin-left: 8px; 
+}
+
+.row-last2-col2{
+    background-image: url("./images/imac.jpg");
+    width:50%;
+    height: 514px;
+    background-position: center;
+    margin-left: 8px;
+}
+
+.row-last2-col1 img{
+    margin: 0 0 0 220px;
+}
+
+.row-last2-col2 h1{
+    text-align: center;
+}
+
+.row-last2-links{
+    margin: 0 0 0 250px;
+}
+
+.row-last2-links a{
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.row-last3-col1{
+    background-image: url("./images/apple-card.jpg");
+    width:50%;
+    height: 514px;
+    background-position: center;
+    margin-left: 8px;
+}
+
+.row-last3-col2{
+    background-image: url("./images/tv-plus-blush.jpg");
+    width:50%;
+    height: 514px;
+    background-position: center;
+    margin-left: 8px;
+}
+
+.blush-image{
+    margin: 290px 0 5px 210px;
+}
+
+.row-last3-col2 p{
+    text-align: center;
+    color: white;
+}
+
+.row-last3-col2 a{
+    text-decoration: none;
+    margin-left: 245px;
+}
+
+.footer{
+    background-color: whitesmoke;
+}
+
+.footer-top{
+    margin: 12px 65px;
+    padding-top: 15px;
+}
+.footer-links{
+    display: flex;
+    width: 100%;
+}
+
+.footer-top ol{
+    padding: 0 25px;
+    font-size: 12px;
+}
+
+.footer-links ul{
+    list-style-type: none;
+    width: 20%;
+    margin-bottom: 8px;
+}
+
+.hero{
+    background-image: url("./images/iphone-images/iphone-13.jpg");
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero1{
+    background-image: url("./images/iphone-images/guided-tour.jpg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 8px;
+}
+
+.tour-text{
+    color: white;
+    padding-top:180px;
+    padding-left: 120px;
+    font-weight: bolder;
+}
+
+.tour-text button{
+    padding: 15px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+
+.specs{
+    margin-top: 85px;
+}
+
+.spec-inner{
+    display: flex;
+    width: 80%;
+    margin-top: 55px;
+    margin-left: 150px;
+}
+
+.specs-compare{
+    width: 20%;
+}
+
+.grey-section{
+    background-color: whitesmoke;
+}
+
+.deals{
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+.deals img{
+    width: 8.33%;
+    margin-left: 95px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.featured-image{
+    background-image: url("./images/support-images/banner.jpg");
+    width: 100%;
+    height: 455px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.featured-image h1{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.panel-bottom{
+    top: 50%;
+    left: 50%;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 35px;
+    gap: 250px;
+}
+
+.panel-bottom img{
+    width: 45px;
+}
+
+.panel-bottom a{
+    font-size: 10px;
+    text-decoration: none;
+    position: absolute;
+    width: 65%;
+    margin-top: 45px;
+    margin-left: -65px;
+}
+
+.search-box{
+    margin-top: 25px;
+    margin-left: 380px;
+}
+
+.search-box h1{
+    padding-bottom: 15px;
+    margin-left: 120px;
+}
+
+.search-box input{
+    width: 500px;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.plates{
+    display: flex;
+    width: 100%;
+    left: 50%;
+    margin-top: 5%;
+    gap: 20px;
+}
+
+.plates img{
+    width: 30%;
+    margin-left: 320px;
+}
+
+.plates a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.banner-below{
+    background-image: url("./images/support-images/get-support.jpg");
+    width: 100%;
+    height: 314px;
+    background-size: cover;
+}
+
+.banner-below h1{
+    padding-top: 8%;
+    padding-left: 18%;
+    color: white;
+}
+
+.banner-below p{
+    padding-left: 18%;
+    color: white;
+}
+
+.plates-inner2{
+    margin-left: -480px;
+}
+
+.warning{
+    padding: 10%;
+}
+
+.warning h1{
+    text-align: center;
+}
+
+.warning p{
+    text-align: center;
+    font-size: 12px;
+}
+
+.link-list{
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 3%;
+}
+
+.link-list a{
+    text-decoration: none;
+    font-size: 12px;
+}
